@@ -1,29 +1,36 @@
 import React from 'react';
 import logo from './flashread.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
         <header style={ headerStyle }>
-            <span>FLASH_READ</span>
-            <span>
-                <img className="logo" src={logo} alt="Logo" />
-            </span>
+            <div>
+            <span style={textStyle}>FLASH_READ</span>
+                <span>
+                    <img className="image" src={logo} alt="Logo" />
+                </span>
+            </div>
+            <div>
+
+            </div>
         </header>
     );
 }
+
+const textStyle = {
+    fontSize: '40px',
+paddingLeft: '100px',
+}
 const headerStyle = {
   backgroundColor: 'rgb(119, 222, 252)',
-  padding: '5%',
+  padding: '2%',
+  right:'10px',
+
   borderRadius: '20%',
   borderStyle: 'solid',
   borderTopLeftRadius: '0%',
   borderTopRightRadius: '0%',
-  fontSize: '50px',
-  fontFamily: 'Georgia',
-  boxShadow: 'inset 2px 2px 2px 0px #ccc',
-//   -moz-box-shadow: 10px 10px 5px #ccc,
-//   -webkit-box-shadow: 10px 10px 5px #ccc,
-//   -khtml-box-shadow: 10px 10px 5px #ccc,
 
 }
 
