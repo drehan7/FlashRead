@@ -18,6 +18,25 @@ header span {
   font-family: "Exo 2", "Monaco";
   color: black;
   font-size: 20px;
+  display: grid;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.3em 1.2em;
+  width: 225px;
+  border-radius: 2em;
+  text-decoration: none;
+
+  /* //     borderRadius: '2em',
+  //     position: 'relative',
+  //     boxSizing: 'border-box',
+  //     textDecoration: 'none',
+  //     fontWeight: '300',
+  //     textAlign: 'center',
+  //     height: '40px',
+  //     width: '200px',
+  //     marginRight: 'auto',
+  //     marginLeft: 'auto', */
 }
 
 .image {
